@@ -1,5 +1,9 @@
+body {
+    overflow-x: hidden;
+}
+
 #menu-container {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -8,7 +12,7 @@
 }
 
 #upper-container {
-    position: fixed;
+    position: absolute;
     top: 37px;
     left: 0;
     width: 100%;
@@ -33,19 +37,63 @@
 }
 
 #lower-container {
-    position: fixed;
+    position: absolute;
     top: 437px;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: white;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#lower-container h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#lower-container #second-container {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#second-container p {
+    position: absolute;
+    width: fit-content;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#image-container img {
+    width: 200px;
+    height: 200px;
+}
+
+#second-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#second-container li {
+    float: left;
+    word-wrap: break-word;
 }
 
 #menu-container ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 #menu-container li {
